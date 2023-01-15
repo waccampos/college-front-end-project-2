@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#divform{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    padding-bottom: 10px;
+    margin-top: 1%
+}
+main{
+    justify-content: center;
+    display: flex;
+}
+fieldset{
+    padding: 5%;
+    margin: 5%;
+    border-radius: 15px;
+}
+body{
+    height: 100%;
+    height: 743px;
+    background-attachment: fixed;
+    background-color: rgb(255, 208, 0);
+}
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 5%;
+    padding-right: 5%;  
+}
+.inputs{
+    width: 95%;
+    padding: 0.8%;
+    margin: 1%;
+    border: 0ch;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 2px;
+}
+.divbtn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.btn{
+    margin-top: 3%;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+}
+.btn:hover{
+    background-color: rgb(20, 20, 20);
+}
+a{
+    justify-items: flex-start;
+    padding: 10px;
+    background-color: black;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+.home{
+    justify-content: flex-start;
+    justify-self: flex-start;
+    margin-left: 10px;
+    margin-top: 15px;
+}

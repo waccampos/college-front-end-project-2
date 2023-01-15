@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <script>
+        function fsunction(){
+            alert("deu formulario foi enviado com sucesso")
+        }
+    </script>
+    <div class="home">
+        <a href="index.html">HOME</a>
+    </div>
+    <main>
+        
+        <div id="divform">
+            <form action="" method="post">
+                <fieldset><legend>formulario para envio de sugestão</legend>
+                    <div class="divs">
+                        <label for="nome">nome:</label><br>
+                        <input type="text" name="nome" id="nome" class="inputs" placeholder="digite seu nome..." required> 
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <label for="sobrenome">sobrenome:</label><br>
+                        <input type="text" name="sobrenome" id="sobrenome"class="inputs" placeholder="digite seu sobrenome..." required>
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <label for="email">email:</label><br>
+                        <input type="email" name="email" id="email"class="inputs"placeholder="digite seu email..." required>
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <label for="telefone">telefone:</label><br>
+                        <input type="tel" name="telefone" id="telefone"class="inputs"placeholder="digite seu numero de telefone..." required>
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <label for="email">data de nascimento:</label><br>
+                        <input type="date" name="data" id="data"class="inpus" required style="padding: 0.8%;
+                        margin: 1%;
+                        border: 0ch;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        color: white;
+                        ">
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <label for="cidade">cidade:</label><br>
+                        <input type="text" name="cidade" id="cidade"class="inputs" placeholder="digite sua cidade" required>
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <label for="">estado:</label><br>
+                        <input type="text" name="estado" id="estado"class="inputs" placeholder="digite seu estado" required>
+                    </div>
+                    <br>
+                    <div class="divs">
+                    <label for="estado">assuntos:</label>
+	                <select id="estado" name="estado" class="inputs">
+                        <option value="off">selecionar</option>
+		            <option value="reclamacoes">reclamações</option>
+		            <option value="sugestoes">sugestões</option>
+		            <option value="compras">compras</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <label for="comentario">comentarios:</label><br>
+                        <textarea name="comentasrio" id="comentario" class="inputs"cols="30" rows="10"placeholder="digite suas sugestões..." required></textarea>
+                    </div>
+                    <hr>
+                    <div class="divbtn">
+                        <button type="reset" class="btn"> limpar</button>
+                        <button type="submit" class="btn" onclick="fsunction()">enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+            <br>
+        </div>
+    </main>
+    
+</body>
+</html>

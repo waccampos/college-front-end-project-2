@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-ofertas{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#h1l{
+    text-decoration: line-through;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container{
+    padding: 10px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
